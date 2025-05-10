@@ -3,6 +3,9 @@
 **Title:** Security Footage  
 **Category:** Forensics / Network  
 **Difficulty:** Medium
+**room link:** https://tryhackme.com/room/securityfootage
+
+![image](https://github.com/user-attachments/assets/63aafdbb-838c-422f-953d-9e46fe80de2e)
 
 
 > Someone broke into our office last night, but they destroyed the hard drives with the security footage. Can you recover the footage?
@@ -114,5 +117,5 @@ This tool saved us time and allowed us to quickly recover all the images embedde
 
 
 
-🙏Thanks for reading my write ups🙏
+  **🙏Thanks for this room ! And thanks for reading my writeups !🙏**
 
