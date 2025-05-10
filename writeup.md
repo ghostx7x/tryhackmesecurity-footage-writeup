@@ -4,6 +4,7 @@
 **Category:** Forensics / Network  
 **Difficulty:** Medium
 
+
 > Someone broke into our office last night, but they destroyed the hard drives with the security footage. Can you recover the footage?
 
 In this challenge, we are given a `.pcap` file that appears to contain HTTP traffic. Our goal is to extract and recover any image that might contain the security footage.
@@ -110,4 +111,8 @@ This tool saved us time and allowed us to quickly recover all the images embedde
 
 -  **Holds to View as Animated Image:**
 - Click on the first image and hold down the right arrow key➡️. this will make it appear as if it's an animated image.
+
+
+
+🙏Thanks for reading my write ups🙏
 
