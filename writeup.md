@@ -38,25 +38,7 @@ Once we inspected the TCP stream, we noticed key indicators that helped confirm 
    ![Screenshot 2025-05-10 112843](https://github.com/user-attachments/assets/d2b9999d-c077-452f-8991-f84ee54a21b9)
 
 
-4. **Check the Raw Data**
-After inspecting the TCP stream, the next step is to check the raw data for further confirmation of the file type. Here's how to do it:
-
-"After opening the TCP Stream, locate the Show data as option at the bottom of the window.
-By default, it will be set to ASCII.
-Change it to Raw to view the raw (binary) data instead of text."
-
--Inspect the Raw Data:
-
-Once you're viewing the TCP stream in Wireshark, scroll through the raw data. You’ll see hexadecimal values that represent the content of the file.
-
--Look for File Signatures:
-
-In the raw data, look for specific file signatures. For example, in this case, the file starts with 47 45, which indicates that the file is a GIF image.
-
-![image](https://github.com/user-attachments/assets/e3eb0b32-92a6-463b-af29-a36d85ab0451)
-
-
-Applying the Filter:
+4. **Applying the Filter:**
 
 After confirming the file type, we proceed to apply a more specific filter to focus on the relevant packets. We used the filter:
 
@@ -69,7 +51,7 @@ This filter searches for packets that contain the word "jpeg", which is typicall
 
 This also indicates that there are multiple images within the file, as several packets contain the word "jpeg", suggesting the presence of multiple image parts or frames.
 
-6. **Using Foremost to Extract Images:**
+5. **Using Foremost to Extract Images:**
 
 Instead of manually saving each image one by one from the TCP stream, we decided to use **Foremost**, a tool designed to extract files like images from raw data files. 
 
