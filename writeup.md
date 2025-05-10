@@ -51,7 +51,7 @@ Once you're viewing the TCP stream in Wireshark, scroll through the raw data. Yo
 
 -Look for File Signatures:
 
-In the raw data, look for specific file signatures. For example, in this case, the file starts with 47 46, which indicates that the file is a GIF image.
+In the raw data, look for specific file signatures. For example, in this case, the file starts with 47 45, which indicates that the file is a GIF image.
 
 ![image](https://github.com/user-attachments/assets/e3eb0b32-92a6-463b-af29-a36d85ab0451)
 
